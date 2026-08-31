@@ -85,15 +85,8 @@ requires four things:
 Every running instance of the program is identical. There is no central
 server. Two peers talking to each other looks like this:
 
-```
- Peer instance (alice)                Peer instance (bob)
-+-------------------------+          +-------------------------+
-|  Terminal UI             |          |  Terminal UI             |
-|  Protocol layer           |          |  Protocol layer           |
-|  Discovery | Connection   |<--UDP-->|  Discovery | Connection   |
-|  Chat state               |<--TCP-->|  Chat state               |
-+-------------------------+          +-------------------------+
-```
+<img width="2720" height="1920" alt="peerradar_architecture" src="https://github.com/user-attachments/assets/10879238-2213-4ceb-9367-9bd714473cbd" />
+
 
 | Module | Responsibility |
 |---|---|
